@@ -1,5 +1,6 @@
 import React from 'react';
 import './card.css';
+import Species from "./Species";
 
 const Card = props => {
     return (
@@ -14,10 +15,11 @@ const Card = props => {
             <p>Eye Color: {props.character.eye_color}</p>
         </div>
         <div className="info">
-        <p>Gender: {props.character.gender}</p>
-        <p>Height: {props.character.height}</p>
-        <p>Mass: {props.character.mass}</p>
+            <p>Gender: {props.character.gender}</p>
+            <p>Height: {props.character.height}</p>
+            <p>Mass: {props.character.mass}</p>
         </div>
+            
         </div>
         </div>
     )
